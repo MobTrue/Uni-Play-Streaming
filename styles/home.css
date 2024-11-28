@@ -263,3 +263,12 @@ footer {
     cursor: pointer;
     background: transparent;
 }
+
+#classA {
+    background-color: #158A0B;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+}
