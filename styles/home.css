@@ -267,11 +267,3 @@ footer {
 .card a:hover {
     background-color: #45a049;
 }
-
-.card button {
-   background-color: #0BA197;
-   color: #000;
-   padding: 8px;
-   border-radius: 10px;
-   border: none;
-}
