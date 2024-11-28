@@ -32,7 +32,7 @@ const createPlanCards = (plans, containerId) => {
          
          
          <a id="classA" href="http://bit.ly/4fOky9q">
-            <button class="buttonPlans">Assinar</button>
+            Assinar
          </a>
       `;
       container.appendChild(card);
