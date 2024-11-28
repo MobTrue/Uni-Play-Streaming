@@ -259,6 +259,9 @@ footer {
     border-radius: 25px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
 }
 
 .card a:hover {
