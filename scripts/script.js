@@ -31,7 +31,7 @@ const createPlanCards = (plans, containerId) => {
          <p>R$${plan.preco.toFixed(2)}</p>
          
          
-         <a href="http://bit.ly/4fOky9q">
+         <a id="classA" href="http://bit.ly/4fOky9q">
             <button class="buttonPlans">Assinar</button>
          </a>
       `;
