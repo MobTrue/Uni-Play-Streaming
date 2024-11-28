@@ -263,7 +263,3 @@ footer {
     cursor: pointer;
     background: transparent;
 }
-
-.card a:hover {
-    background-color: #45a049;
-}
