@@ -265,10 +265,15 @@ footer {
 }
 
 #classA {
-    background-color: #fff;
+    background-color: #158A0B;
     padding: 5px;
     border-radius: 20px;
     cursor: pointer;
     outline: none;
     color: #000;
+}
+
+#classA:hover {
+    padding: 7px;
+    border: 1px solid #fff;
 }
