@@ -18,16 +18,6 @@ let uniPlans = [
    { id: 6, name: "Uni Mais - Anual", preco: 249.90, time: "12 meses" }
 ];
 
-// Array de planos Warez
-let warezPlans = [
-   { id: 1, name: "Warez Play - Mensal", preco: 39.90, time: "1 mês"},
-   { id: 2, name: "Warez Play - Mensal 2 telas", preco: 69.90, time: "1 mês, 2 telas"},
-   { id: 3, name: "Warez Play - Bimestral", preco: 69.90, time: "2 meses" },
-   { id: 4, name: "Warez Play - Trimestral", preco: 107.70, time: "3 meses" },
-   { id: 5, name: "Warez Play - Semestral", preco: 215.50, time: "6 meses" },
-   { id: 6, name: "Warez Play - Anual", preco: 430.80, time: "12 meses" }
-];
-
 // Função para criar cards de planos usando arrow functions
 const createPlanCards = (plans, containerId) => {
    const container = document.getElementById(containerId);
@@ -40,7 +30,10 @@ const createPlanCards = (plans, containerId) => {
          <p>Duração: ${plan.time}</p>
          <p>R$${plan.preco.toFixed(2)}</p>
          
-         <button class="buttonPlans">Assinar</button>
+         
+         <a href="http://bit.ly/4fOky9q">
+            <button class="buttonPlans">Assinar</button>
+         </a>
       `;
       container.appendChild(card);
    });
@@ -48,5 +41,4 @@ const createPlanCards = (plans, containerId) => {
 
 // Criar cards para todos os planos
 createPlanCards(nextPlans, 'plans-container1');
-createPlanCards(warezPlans, 'plans-container2');
-createPlanCards(uniPlans, 'plans-container3');
+createPlanCards(uniPlans, 'plans-container2');
