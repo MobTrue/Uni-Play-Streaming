@@ -265,10 +265,10 @@ footer {
 }
 
 #classA {
-    background-color: #158A0B;
-    padding: 8px;
-    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
     cursor: pointer;
     outline: none;
-    color: #fff;
+    color: #000;
 }
