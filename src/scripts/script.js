@@ -6,4 +6,4 @@ function updateFirstClass() {
   currentIndex = (currentIndex + 1) % planCards.length;
 }
 updateFirstClass();
-setInterval(updateFirstClass, 5000);
+setInterval(updateFirstClass, 3000);
