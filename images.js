@@ -95,10 +95,10 @@ function changeImage(cardId, interval) {
 
 // Aguarda o carregamento do DOM
 document.addEventListener("DOMContentLoaded", function() {
-    changeImage('card1', 2500); // Card 1 a cada 3 segundos
-    changeImage('card2', 2000); // Card 2 a cada 4 segundos
-    changeImage('card3', 2500); // Card 3 a cada 3 segundos
-    changeImage('card4', 2000); // Card 4 a cada 3 segundos
-    changeImage('card5', 2500); // Card 5 a cada 4 segundos
-    changeImage('card6', 2000); // Card 6 a cada 3 segundos
+    changeImage('card1', 3000);
+    changeImage('card2', 3200);
+    changeImage('card3', 3400);
+    changeImage('card4', 3500);
+    changeImage('card5', 3300); 
+    changeImage('card6', 3100);
 });
