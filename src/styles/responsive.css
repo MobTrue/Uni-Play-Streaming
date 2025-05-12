@@ -39,18 +39,25 @@
     padding: 3px 8px;
   }
 
+  /* Oculta os links com IDs específicos em telas pequenas */
   #hidden {
-    display: none;
+    display: none; /* Oculta os elementos com esses IDs */
   }
-  
+
+  .plans {
+    display: flex; /* Garante que os cartões sejam exibidos em linha */
+    align-items: center; /* Centraliza os cartões */
+    gap: 20px; /* Espaço entre os cartões */
+  }
+
   .plan-card {
-     overflow: hidden;
-     display: none;
-     width: 95%;
-     border: 1px solid #fff;
+    overflow: hidden;
+    width: 95%; /* Ajusta a largura dos cartões */
+    border: 1px solid #fff; /* Adiciona uma borda para destaque */
   }
-  
+
+  /* Removendo a lógica de display none */
   .plan-card.first {
-     display: block;
+    display: block; /* Exibe o cartão ativo, mas todos os cartões são exibidos */
   }
 }
