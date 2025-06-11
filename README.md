@@ -38,7 +38,7 @@ Para configurar o UniPlay Streaming em sua máquina local, siga os passos abaixo
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seuusuario/Uni-Play-Streaming.git
+   git clone https://github.com/MobTrue/Uni-Play-Streaming.git
    ```
 
 2. **Navegue até o diretório do projeto**
