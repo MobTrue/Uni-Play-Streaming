@@ -1,4 +1,3 @@
-```markdown
 # UniPlay Streaming
 
 ## Descrição
@@ -124,7 +123,5 @@ Para dúvidas, sugestões ou feedback, entre em contato:
 ## Agradecimentos
 
 Agradecemos a todos que contribuíram para o desenvolvimento do UniPlay Streaming. Feedback e sugestões são sempre bem-vindos! Sinta-se à vontade para abrir uma issue ou enviar um e-mail.
-
----
 
 **Nota**: Mantenha o projeto atualizado e revise regularmente o README para garantir que as informações sejam precisas e reflitam as últimas mudanças.
